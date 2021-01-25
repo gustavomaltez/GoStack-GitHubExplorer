@@ -95,3 +95,10 @@ export const Repositories = styled.div`
     }
   }
 `;
+
+export const Error = styled.span`
+  display: block;
+  color: #c53030;
+  margin-top: 8px;
+  margin-left: 5px;
+`;
