@@ -25,6 +25,7 @@
         "prettier"
     ],
     "rules": {
+      "no-use-before-define": "off",
       "prettier/prettier": "error",
       "import/extensions": [
         "error",
