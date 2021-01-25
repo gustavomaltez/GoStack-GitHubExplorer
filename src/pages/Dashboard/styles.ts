@@ -1,3 +1,4 @@
+import { shade } from 'polished';
 import styled from 'styled-components';
 
 export const Title = styled.h1`
@@ -20,16 +21,24 @@ export const Form = styled.form`
     padding: 0 24px;
     border: 0;
     border-radius: 5px 0 0 5px;
+    color: #3a3a3a;
+
+    &::placeholder {
+      color: #a8a8b3;
+    }
   }
 
   button {
+    width: 210px;
     background: #04d361;
     border-radius: 0px 5px 5px 0px;
     border: 0;
     color: #fff;
     font-weight: bold;
+    transition: background-color 200ms;
 
     &:hover {
+      background: ${shade(0.2, '#04d361')};
     }
   }
 `;
