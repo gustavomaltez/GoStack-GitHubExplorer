@@ -25,6 +25,9 @@
         "prettier"
     ],
     "rules": {
+      "@typescript-eslint/explicit-function-return-type": ["error", {
+        "allowExpressions": true
+      }],
       "no-use-before-define": "off",
       "prettier/prettier": "error",
       "import/extensions": [
