@@ -58,6 +58,11 @@ export const Repositories = styled.div`
     display: flex;
     align-items: center;
 
+    transition: transform 200ms;
+
+    &:hover {
+      transform: translateX(10px);
+    }
     img {
       width: 64px;
       height: 64px;
@@ -77,6 +82,11 @@ export const Repositories = styled.div`
         color: #a8a8b3;
         margin-top: 4px;
       }
+    }
+
+    svg {
+      margin-left: auto;
+      color: #cbcbd6;
     }
   }
 `;

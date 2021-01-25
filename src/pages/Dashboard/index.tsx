@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { FiChevronRight } from 'react-icons/fi';
 import logoImg from '../../assets/images/logo.svg';
 import { Form, Repositories, Title } from './styles';
 
@@ -25,6 +26,8 @@ const Dashboard: React.FC = () => {
             <strong>Example</strong>
             <p>Repository Description</p>
           </div>
+
+          <FiChevronRight size={20} />
         </a>
       </Repositories>
     </>
