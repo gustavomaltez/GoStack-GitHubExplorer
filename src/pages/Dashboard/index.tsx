@@ -50,7 +50,7 @@ const Dashboard: React.FC = () => {
       const response = await api.get<Repository>(`/repos/${newRepo}`);
       const repository = response.data;
 
-      setRepositories([...repositories, repository]);
+      setRepositories([repository, ...repositories]);
       setNewRepo('');
       setInputError('');
     } catch (error) {
