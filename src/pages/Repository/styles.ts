@@ -54,6 +54,7 @@ export const RepositoryInfo = styled.section`
     display: flex;
     list-style: none;
     margin-top: 40px;
+    margin-left: 20px;
 
     li {
       & + li {
